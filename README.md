@@ -9,5 +9,14 @@ TestDrivenDevelopment
 * Start exploring implementing interface at core class, then move this responsibility to another class and get that invoked from the core class - implicitly we start building Solid Principles from TDD & we measure our outcome.
 * After this reading, i felt i require to try this out on my own but still in a correct manner to think the requirement small (Xtreme Programming), so referred an example as mentioned in the reference section
 
+## Port number 8081 where REST API hosted
+## Servlet context path: /TaxCalculator
+
+## SonarLint code analysis warnings removed
+
+## Executing this application
+* Download and run the application
+* Open Postman and provide this input: http://localhost:8081/TaxCalculator/getTax?income=10&months=5
+
 #Reference
 * https://medium.com/@dahamne/test-driven-development-with-java-spring-boot-and-junit5-e8a1188f8029
